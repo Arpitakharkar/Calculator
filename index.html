@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="name">
+            <h1>Calculator</h1>
+        </div>
+        <input type="text" placeholder="Calculator" id="display" readonly>
+        <div class="buttons">
+            <!-- First Row -->
+            <button class="btn function-btn">sin</button>
+            <button class="btn function-btn">cos</button>
+            <button class="btn function-btn">tan</button>
+            <button class="btn function-btn">log</button>
+            
+            <!-- Second Row -->
+            <button class="btn function-btn">√</button>
+            <button class="btn function-btn">x²</button>
+            <button class="btn function-btn">π</button>
+            <button class="btn" id="clear">Clear</button>
+            
+            <!-- Third Row -->
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn operator-btn">/</button>
+
+            <!-- Fourth Row -->
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn operator-btn">*</button>
+
+            <!-- Fifth Row -->
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn operator-btn">-</button>
+
+            <!-- Sixth Row -->
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn" id="equal">=</button>
+            <button class="btn operator-btn">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
